@@ -1,12 +1,11 @@
-package excecutorpro;
+package executorframework.excecutorpro;
 
-import java.sql.Time;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-public class ExecutorExample {
+public class ExecutorExample1 {
     static void main() {
 
 //        for(int i=0; i<10; i++) {
@@ -16,7 +15,7 @@ public class ExecutorExample {
         // We cant start thread more than one time
 //        ExecutorService ex = Executors.newFixedThreadPool(10);
 //        ExecutorService ex = Executors.newFixedThreadPool(3);
-//        ExecutorService ex = Executors.newCachedThreadPool(); // it create thread when each time execute methos called, thread alive for 60 secs.
+//        ExecutorService ex = Executors.newCachedThreadPool(); // it create thread when each time execute methos called, thread alive for 60 secs. nno need to invoke shutdown()
 //        for(int i=0; i<10; i++) {
 //            ex.execute(new Task(i));
 //        }
